@@ -1,0 +1,25 @@
+.header {
+  background-color: #660000;
+  text-align: center;
+  color: white;
+  padding:1rem;
+}
+h1 {
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .header {
+    padding: 1.5rem;
+  }
+}

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+  font-size: 20px;
+  color: #F1CB94;
+}
+h2 {
+  font-size: 1.5rem;
+}
+body {
+  display: flex;
+flex-direction: column;
+background-color: #E6E0D9;
+}
+* { margin: 0;
+
+  padding: 0; }
